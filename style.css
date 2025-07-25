@@ -906,7 +906,7 @@ body {
 .mobile-menu-toggle span {
   width: 25px;
   height: 3px;
-  background: var(--text-primary);
+  background: #0f172a;
   margin: 3px 0;
   transition: 0.3s;
 }
@@ -918,6 +918,7 @@ body {
 
   .mobile-menu-toggle {
     display: flex;
+  
   }
 }
 
@@ -1238,13 +1239,13 @@ section {
 }
 
 .timeline-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .timeline-company {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--accent-purple);
   margin-bottom: 0.25rem;
@@ -1581,6 +1582,8 @@ section {
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   transition: color 0.3s ease;
+  display: inline-block;
+  word-break: break-all;
 }
 
 .contact-info a:hover {
@@ -1603,17 +1606,16 @@ section {
 
 /* Footer */
 .footer {
-  background: var(--text-primary);
+  background: #1e293b;
   color: white;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .social-links {
